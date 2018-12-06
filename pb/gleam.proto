@@ -351,6 +351,11 @@ message Instruction {
         bool isParallel = 1;
     }
     Union union = 24;
+
+    message Iteration {
+        repeated int32 indexes = 1;
+    }
+    Iteration iteration = 25;
 }
 
 message OrderBy {

@@ -63,7 +63,16 @@ type Flow struct {
 	Name     string
 	Steps    []*Step
 	Datasets []*Dataset
-	HashCode uint32
+	//SolutionSets SolutionSet
+	HashCode    uint32
+	Iteration   bool
+	SolutionSet SolutionSet
+}
+
+type SolutionSet interface {
+	Update(string) error
+	Finished() bool
+	Strings() string
 }
 
 type Dataset struct {

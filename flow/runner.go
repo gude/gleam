@@ -3,6 +3,7 @@ package flow
 import (
 	"context"
 	"io"
+	"log"
 	"os"
 	"sync"
 	"time"
@@ -39,9 +40,33 @@ func (r *localDriver) GetFlowRunner() FlowRunner {
 func (r *localDriver) RunFlowContext(ctx context.Context, fc *Flow) {
 	r.ctx = ctx
 	var wg sync.WaitGroup
-	wg.Add(1)
-	r.RunFlowAsync(&wg, fc)
-	wg.Wait()
+	if fc.Iteration {
+		for !fc.SolutionSet.Finished() {
+			log.Println("loop")
+			wg.Add(1)
+			r.IterationFlowContext(&wg, fc)
+			wg.Wait()
+		}
+	} else {
+		wg.Add(1)
+		r.RunFlowAsync(&wg, fc)
+		wg.Wait()
+	}
+}
+
+func (r *localDriver) IterationFlowContext(wg *sync.WaitGroup, fc *Flow) {
+	defer wg.Done()
+
+	on_interrupt.OnInterrupt(fc.OnInterrupt, nil)
+
+	for _, step := range fc.Steps {
+		if step.OutputDataset == nil {
+			wg.Add(1)
+			go func(step *Step) {
+				r.runStep(wg, step)
+			}(step)
+		}
+	}
 }
 
 func (r *localDriver) RunFlowAsync(wg *sync.WaitGroup, fc *Flow) {

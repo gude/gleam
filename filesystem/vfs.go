@@ -34,8 +34,6 @@ type VirtualFileSystem interface {
 var (
 	fileSystems = []VirtualFileSystem{
 		&LocalFileSystem{},
-		&HdfsFileSystem{},
-		&S3FileSystem{},
 	}
 )
 

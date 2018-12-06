@@ -16,8 +16,9 @@ func New(name string) (fc *Flow) {
 	r := rand.New(rand.NewSource(time.Now().UnixNano()))
 
 	fc = &Flow{
-		Name:     name,
-		HashCode: r.Uint32(),
+		Name:      name,
+		HashCode:  r.Uint32(),
+		Iteration: true,
 	}
 	return
 }
@@ -40,6 +41,10 @@ func (fc *Flow) RunContext(ctx context.Context, options ...FlowOption) {
 			option.GetFlowRunner().RunFlowContext(ctx, fc)
 		}
 	}
+}
+
+func (fc *Flow) SetSolutionSet(solutionSet SolutionSet) {
+	fc.SolutionSet = solutionSet
 }
 
 func (fc *Flow) NewNextDataset(shardSize int) (ret *Dataset) {
