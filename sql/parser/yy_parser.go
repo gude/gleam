@@ -19,11 +19,11 @@ import (
 	"strconv"
 	"unicode"
 
-	"github.com/chrislusf/gleam/sql/ast"
-	"github.com/chrislusf/gleam/sql/mysql"
-	"github.com/chrislusf/gleam/sql/terror"
-	"github.com/chrislusf/gleam/sql/util/hack"
-	"github.com/chrislusf/gleam/sql/util/types"
+	"github.com/gude/gleam/sql/ast"
+	"github.com/gude/gleam/sql/mysql"
+	"github.com/gude/gleam/sql/terror"
+	"github.com/gude/gleam/sql/util/hack"
+	"github.com/gude/gleam/sql/util/types"
 	"github.com/juju/errors"
 )
 

@@ -5,8 +5,8 @@ import (
 	"io"
 	"net"
 
-	"github.com/chrislusf/gleam/pb"
-	"github.com/chrislusf/gleam/util"
+	"github.com/gude/gleam/pb"
+	"github.com/gude/gleam/util"
 )
 
 type Sourcer interface {

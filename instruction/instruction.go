@@ -3,7 +3,7 @@ package instruction
 import (
 	"io"
 
-	"github.com/chrislusf/gleam/pb"
+	"github.com/gude/gleam/pb"
 )
 
 var (

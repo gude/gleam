@@ -13,8 +13,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chrislusf/gleam/pb"
-	"github.com/chrislusf/gleam/util"
+	"github.com/gude/gleam/pb"
+	"github.com/gude/gleam/util"
 	"github.com/golang/protobuf/proto"
 	"github.com/soheilhy/cmux"
 )

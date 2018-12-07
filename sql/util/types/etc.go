@@ -22,10 +22,10 @@ import (
 	"strings"
 
 	"github.com/juju/errors"
-	"github.com/chrislusf/gleam/sql/mysql"
-	"github.com/chrislusf/gleam/sql/parser/opcode"
-	"github.com/chrislusf/gleam/sql/terror"
-	"github.com/chrislusf/gleam/sql/util/charset"
+	"github.com/gude/gleam/sql/mysql"
+	"github.com/gude/gleam/sql/parser/opcode"
+	"github.com/gude/gleam/sql/terror"
+	"github.com/gude/gleam/sql/util/charset"
 )
 
 // IsTypeBlob returns a boolean indicating whether the tp is a blob type.

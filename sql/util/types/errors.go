@@ -14,8 +14,8 @@
 package types
 
 import (
-	"github.com/chrislusf/gleam/sql/mysql"
-	"github.com/chrislusf/gleam/sql/terror"
+	"github.com/gude/gleam/sql/mysql"
+	"github.com/gude/gleam/sql/terror"
 )
 
 var (

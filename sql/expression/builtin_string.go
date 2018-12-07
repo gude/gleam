@@ -26,13 +26,13 @@ import (
 
 	"log"
 
-	"github.com/chrislusf/gleam/sql/ast"
-	"github.com/chrislusf/gleam/sql/context"
-	"github.com/chrislusf/gleam/sql/mysql"
-	"github.com/chrislusf/gleam/sql/util/charset"
-	"github.com/chrislusf/gleam/sql/util/hack"
-	"github.com/chrislusf/gleam/sql/util/stringutil"
-	"github.com/chrislusf/gleam/sql/util/types"
+	"github.com/gude/gleam/sql/ast"
+	"github.com/gude/gleam/sql/context"
+	"github.com/gude/gleam/sql/mysql"
+	"github.com/gude/gleam/sql/util/charset"
+	"github.com/gude/gleam/sql/util/hack"
+	"github.com/gude/gleam/sql/util/stringutil"
+	"github.com/gude/gleam/sql/util/types"
 	"github.com/juju/errors"
 	"golang.org/x/text/transform"
 )

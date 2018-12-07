@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/chrislusf/gleam/filesystem"
-	"github.com/chrislusf/gleam/flow"
-	"github.com/chrislusf/gleam/pb"
-	"github.com/chrislusf/gleam/util"
+	"github.com/gude/gleam/filesystem"
+	"github.com/gude/gleam/flow"
+	"github.com/gude/gleam/pb"
+	"github.com/gude/gleam/util"
 )
 
 type FileSource struct {

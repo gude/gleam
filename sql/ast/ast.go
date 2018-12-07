@@ -16,9 +16,9 @@
 package ast
 
 import (
-	"github.com/chrislusf/gleam/sql/context"
-	"github.com/chrislusf/gleam/sql/model"
-	"github.com/chrislusf/gleam/sql/util/types"
+	"github.com/gude/gleam/sql/context"
+	"github.com/gude/gleam/sql/model"
+	"github.com/gude/gleam/sql/util/types"
 )
 
 // Node is the basic element of the AST.

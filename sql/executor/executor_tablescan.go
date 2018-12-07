@@ -1,13 +1,13 @@
 package executor
 
 import (
-	"github.com/chrislusf/gleam/flow"
-	"github.com/chrislusf/gleam/sql/context"
-	"github.com/chrislusf/gleam/sql/expression"
-	"github.com/chrislusf/gleam/sql/model"
-	"github.com/chrislusf/gleam/sql/plan"
-	"github.com/chrislusf/gleam/sql/table"
-	"github.com/chrislusf/gleam/sql/util/types"
+	"github.com/gude/gleam/flow"
+	"github.com/gude/gleam/sql/context"
+	"github.com/gude/gleam/sql/expression"
+	"github.com/gude/gleam/sql/model"
+	"github.com/gude/gleam/sql/plan"
+	"github.com/gude/gleam/sql/table"
+	"github.com/gude/gleam/sql/util/types"
 )
 
 type SelectTableExec struct {

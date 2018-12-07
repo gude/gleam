@@ -17,8 +17,8 @@ import (
 	"math"
 
 	"github.com/juju/errors"
-	"github.com/chrislusf/gleam/sql/parser/opcode"
-	"github.com/chrislusf/gleam/sql/sessionctx/variable"
+	"github.com/gude/gleam/sql/parser/opcode"
+	"github.com/gude/gleam/sql/sessionctx/variable"
 )
 
 // CoerceArithmetic converts datum to appropriate datum for arithmetic computing.

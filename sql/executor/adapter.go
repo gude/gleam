@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/chrislusf/gleam/flow"
-	"github.com/chrislusf/gleam/sql/context"
-	"github.com/chrislusf/gleam/sql/infoschema"
-	"github.com/chrislusf/gleam/sql/plan"
+	"github.com/gude/gleam/flow"
+	"github.com/gude/gleam/sql/context"
+	"github.com/gude/gleam/sql/infoschema"
+	"github.com/gude/gleam/sql/plan"
 	"github.com/juju/errors"
 )
 

@@ -15,10 +15,10 @@ package expression
 
 import (
 	"log"
-	"github.com/chrislusf/gleam/sql/ast"
-	"github.com/chrislusf/gleam/sql/context"
-	"github.com/chrislusf/gleam/sql/mysql"
-	"github.com/chrislusf/gleam/sql/util/types"
+	"github.com/gude/gleam/sql/ast"
+	"github.com/gude/gleam/sql/context"
+	"github.com/gude/gleam/sql/mysql"
+	"github.com/gude/gleam/sql/util/types"
 )
 
 // MaxPropagateColsCnt means the max number of columns that can participate propagation.

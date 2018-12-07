@@ -8,12 +8,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chrislusf/gleam/distributed/driver/scheduler"
-	"github.com/chrislusf/gleam/distributed/plan"
-	"github.com/chrislusf/gleam/distributed/resource"
-	"github.com/chrislusf/gleam/flow"
-	"github.com/chrislusf/gleam/pb"
-	"github.com/chrislusf/gleam/util/on_interrupt"
+	"github.com/gude/gleam/distributed/driver/scheduler"
+	"github.com/gude/gleam/distributed/plan"
+	"github.com/gude/gleam/distributed/resource"
+	"github.com/gude/gleam/flow"
+	"github.com/gude/gleam/pb"
+	"github.com/gude/gleam/util/on_interrupt"
 	"google.golang.org/grpc"
 )
 

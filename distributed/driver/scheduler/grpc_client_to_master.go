@@ -4,7 +4,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/chrislusf/gleam/pb"
+	"github.com/gude/gleam/pb"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )

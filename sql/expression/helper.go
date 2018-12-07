@@ -17,11 +17,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/chrislusf/gleam/sql/ast"
-	"github.com/chrislusf/gleam/sql/context"
-	"github.com/chrislusf/gleam/sql/mysql"
-	"github.com/chrislusf/gleam/sql/sessionctx/varsutil"
-	"github.com/chrislusf/gleam/sql/util/types"
+	"github.com/gude/gleam/sql/ast"
+	"github.com/gude/gleam/sql/context"
+	"github.com/gude/gleam/sql/mysql"
+	"github.com/gude/gleam/sql/sessionctx/varsutil"
+	"github.com/gude/gleam/sql/util/types"
 	"github.com/juju/errors"
 )
 

@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chrislusf/gleam/instruction"
-	"github.com/chrislusf/gleam/pb"
-	"github.com/chrislusf/gleam/script"
-	"github.com/chrislusf/gleam/util"
+	"github.com/gude/gleam/instruction"
+	"github.com/gude/gleam/pb"
+	"github.com/gude/gleam/script"
+	"github.com/gude/gleam/util"
 )
 
 type NetworkType int

@@ -1,7 +1,7 @@
 package flow
 
 import (
-	"github.com/chrislusf/gleam/instruction"
+	"github.com/gude/gleam/instruction"
 )
 
 func (d *Dataset) MergeSortedTo(name string, partitionCount int) (ret *Dataset) {

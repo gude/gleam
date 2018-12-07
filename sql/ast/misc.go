@@ -16,9 +16,9 @@ package ast
 import (
 	"fmt"
 
-	"github.com/chrislusf/gleam/sql/context"
-	"github.com/chrislusf/gleam/sql/model"
-	"github.com/chrislusf/gleam/sql/mysql"
+	"github.com/gude/gleam/sql/context"
+	"github.com/gude/gleam/sql/model"
+	"github.com/gude/gleam/sql/mysql"
 )
 
 var (

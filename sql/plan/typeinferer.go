@@ -18,12 +18,12 @@ import (
 
 	"log"
 
-	"github.com/chrislusf/gleam/sql/ast"
-	"github.com/chrislusf/gleam/sql/mysql"
-	"github.com/chrislusf/gleam/sql/parser/opcode"
-	"github.com/chrislusf/gleam/sql/sessionctx/variable"
-	"github.com/chrislusf/gleam/sql/util/charset"
-	"github.com/chrislusf/gleam/sql/util/types"
+	"github.com/gude/gleam/sql/ast"
+	"github.com/gude/gleam/sql/mysql"
+	"github.com/gude/gleam/sql/parser/opcode"
+	"github.com/gude/gleam/sql/sessionctx/variable"
+	"github.com/gude/gleam/sql/util/charset"
+	"github.com/gude/gleam/sql/util/types"
 	"github.com/juju/errors"
 )
 

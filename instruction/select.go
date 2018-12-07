@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/chrislusf/gleam/pb"
-	"github.com/chrislusf/gleam/util"
+	"github.com/gude/gleam/pb"
+	"github.com/gude/gleam/util"
 )
 
 func init() {

@@ -14,11 +14,11 @@
 package plan
 
 import (
-	"github.com/chrislusf/gleam/sql/ast"
-	"github.com/chrislusf/gleam/sql/context"
-	"github.com/chrislusf/gleam/sql/infoschema"
-	"github.com/chrislusf/gleam/sql/mysql"
-	"github.com/chrislusf/gleam/sql/terror"
+	"github.com/gude/gleam/sql/ast"
+	"github.com/gude/gleam/sql/context"
+	"github.com/gude/gleam/sql/infoschema"
+	"github.com/gude/gleam/sql/mysql"
+	"github.com/gude/gleam/sql/terror"
 	"github.com/juju/errors"
 )
 

@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chrislusf/gleam/util"
+	"github.com/gude/gleam/util"
 )
 
 type trackedChannel struct {

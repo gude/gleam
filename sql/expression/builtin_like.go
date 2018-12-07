@@ -17,8 +17,8 @@ import (
 	"regexp"
 
 	"github.com/juju/errors"
-	"github.com/chrislusf/gleam/sql/context"
-	"github.com/chrislusf/gleam/sql/util/types"
+	"github.com/gude/gleam/sql/context"
+	"github.com/gude/gleam/sql/util/types"
 )
 
 const (

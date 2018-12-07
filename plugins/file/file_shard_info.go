@@ -8,8 +8,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/chrislusf/gleam/filesystem"
-	"github.com/chrislusf/gleam/gio"
+	"github.com/gude/gleam/filesystem"
+	"github.com/gude/gleam/gio"
 )
 
 type FileShardInfo struct {

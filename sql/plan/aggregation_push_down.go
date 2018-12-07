@@ -15,12 +15,12 @@ package plan
 import (
 	"fmt"
 
-	"github.com/chrislusf/gleam/sql/ast"
-	"github.com/chrislusf/gleam/sql/context"
-	"github.com/chrislusf/gleam/sql/expression"
-	"github.com/chrislusf/gleam/sql/model"
-	"github.com/chrislusf/gleam/sql/mysql"
-	"github.com/chrislusf/gleam/sql/util/types"
+	"github.com/gude/gleam/sql/ast"
+	"github.com/gude/gleam/sql/context"
+	"github.com/gude/gleam/sql/expression"
+	"github.com/gude/gleam/sql/model"
+	"github.com/gude/gleam/sql/mysql"
+	"github.com/gude/gleam/sql/util/types"
 )
 
 type aggPushDownSolver struct {

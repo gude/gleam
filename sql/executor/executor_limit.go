@@ -1,8 +1,8 @@
 package executor
 
 import (
-	"github.com/chrislusf/gleam/flow"
-	"github.com/chrislusf/gleam/sql/expression"
+	"github.com/gude/gleam/flow"
+	"github.com/gude/gleam/sql/expression"
 )
 
 type LimitExec struct {
